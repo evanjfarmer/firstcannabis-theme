@@ -330,7 +330,7 @@ to display none.
     display: none; } }
 
 /*Custom Changes*/
-.body h1, h2, h3, h4, h5, h6, p {
+.body h1, h2, h3, h4, h5, h6, p, .page-title {
 font-family: 'Exo', sans-serif;
 }
 .header, #content, .entry-content, .footer{
@@ -338,6 +338,9 @@ font-family: 'Exo', sans-serif;
 }
 .off-canvas-content {
   background-color: black;
+}
+#top-bar-menu {
+  display: none;
 }
 .button {
   background-color: grey;
@@ -390,4 +393,18 @@ a:hover {
   top: 6em;
   position: absolute;
   z-index: 1;
+}
+/****WooCommerce****/
+.woocommerce div.product {
+  background-color: grey;
+}
+.woocommerce div.product div.images img {
+  max-width: 300px;
+  margin-left: 200px;
+}
+.woocommerce div.product .product_title {
+font-family: 'Exo', sans-serif;
+}
+#post-36, .checkout {
+  background-color: grey;
 }

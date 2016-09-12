@@ -2,6 +2,7 @@
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="entry-content">
+		<img src="http://www.cannabisismyreligion.dev/wp-content/uploads/2016/09/green-leaf.jpg" />
 		<div class="row">
 			<div class="call small-12 large-12 columns">
 				<h2></h2>
