@@ -333,8 +333,14 @@ to display none.
 .body h1, h2, h3, h4, h5, h6, p, .page-title {
 font-family: 'Exo', sans-serif;
 }
+h2 {
+  color: grey;
+}
 .header, #content, .entry-content, .footer{
   background-color: black;
+}
+.entry-content {
+  padding: 4px;
 }
 .off-canvas-content {
   background-color: black;
@@ -393,6 +399,10 @@ a:hover {
   top: 6em;
   position: absolute;
   z-index: 1;
+}
+/****Pages****/
+#content #inner-content {
+    background: #4b4c4e;
 }
 /****WooCommerce****/
 .woocommerce div.product {

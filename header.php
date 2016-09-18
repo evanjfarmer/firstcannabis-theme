@@ -53,6 +53,6 @@
 						 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
 						 <div class="row">
 						<div class="headerimg">
-							<a href="#"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="First Cannabis Church" /></a>
+							<a href="/"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="First Cannabis Church" /></a>
 						</div>
 					</header> <!-- end .header -->
