@@ -342,6 +342,9 @@ h2 {
 .entry-content {
   padding: 4px;
 }
+.green-leaf {
+  width: 100%;
+}
 .off-canvas-content {
   background-color: black;
 }
